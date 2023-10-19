@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://kit.fontawesome.com/16eed8751c.js" crossorigin="anonymous"></script> </head>
+
+<body>
+    <div class="header">
+        <p class="logo">MOTION CUT</p>
+        <div class="cart"><i class="fa-solid fa-cart-arrow-down"></i><p id="count"></p>
+        </div>
+    </div>
+    <div class="container">
+        <h1> Shopping </h1>
+
+        <div id="alerts"></div>
+        <div class="productcont">
+            <div class="product"><img src="https://i.imgur.com/qqBRWD5.jpg" alt="">
+                <h3 class="productname">SAMSUNG GALAXY S2 5g</h3>
+                <p>Product description excerpt...</p>
+                <p class="price">$100088</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product"><img src="https://i.imgur.com/qqBRWD5.jpg" alt="">
+            
+                <h3 class="productname">sasung 5g</h3>
+                <p>product secription....</p>
+                <p class="price">$31345</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product"><img src="https://i.imgur.com/qqBRWD5.jpg" alt="">
+                <h3 class="productname">SAMSANG S2 4g</h3>
+                <p>Product description excerpt...</p>
+                <p class="price">$1078.50</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+        </div>
+        <div class="cart-container">
+
+            <h2>Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><strong>Product</strong></th>
+                        <th><strong>Price</strong></th>
+                    </tr>
+                </thead>
+                <tbody id="carttable">
+                </tbody>
+            </table>
+            <hr>
+            <table id="carttotals">
+                <tr>
+                    <td><strong>Items</strong></td>
+                    <td><strong>Total</strong></td>
+                </tr>
+                <tr>
+                    <td>x <span id="itemsquantity">0</span></td>
+
+                    <td>$<span id="total">0</span></td>
+                </tr>
+            </table>
+
+
+            <div class="cart-buttons">
+                <button id="emptycart">Empty Cart</button>
+
+                <button id="checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
